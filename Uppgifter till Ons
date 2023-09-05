@@ -1,0 +1,75 @@
+//string name;
+//string surName;
+
+//Console.WriteLine("Hej! Var vänlig att skriva in ditt förnamn.");
+
+//Console.Write("Förnamn:");
+
+//name = Console.ReadLine();
+
+//Console.WriteLine("Hej " + name + "! Vad är ditt efternamn?");
+
+//Console.Write("Efternamn:");
+
+//surName = Console.ReadLine();
+
+//Console.WriteLine("Hej " + name + " " + surName + ". Hur gammal är du?");
+
+//Console.Write("Ålder:");
+
+//int age = Convert.ToInt32(Console.ReadLine());
+
+//Console.WriteLine("Okej så du är " + age + "år gammal!");
+
+//Console.WriteLine("Sista frågan nu, vilken adress bor du på?");
+
+//Console.Write("Adress:");
+
+//var adress = Console.ReadLine();
+
+//Console.WriteLine("Okej härligt! För att sammanfatta så heter du " + name + " " + surName + ". Du är " + age + "år gammal och bor på " + adress + ".");
+
+
+
+int rock = 1;
+int scissors = 2;
+int paper = 3;
+
+string playerOne;
+string playerTwo;
+
+int playerOnePoints = 0;
+
+int playerTwoPoints = 0;
+
+bool gameProceeding = true;
+
+
+
+while (gameProceeding)
+{
+    playerOne = "";
+    playerTwo = "";
+
+    while (playerOne != "Sten" && playerOne != "Sax" && playerOne != "Påse" && playerTwo != "Sten" && playerTwo != "Sax" && playerTwo != "Påse")
+    {
+
+        Console.WriteLine("Välkommen till mitt Sten, Sax, Påse spel!\nSpelare 1, välj och skriv Sten, Sax eller Påse.");
+
+        playerOne = Console.ReadLine();
+
+        Console.WriteLine("Spelare 2, välj och skriv Sten, Sax eller Påse.");
+
+        playerTwo = Console.ReadLine();
+
+
+
+
+    }
+
+
+
+
+
+
+}
