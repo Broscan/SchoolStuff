@@ -1,0 +1,44 @@
+// LISTA
+Console.WriteLine("Lista:");
+// Skapa en tom lista med strängar
+List<string> fruits = new()
+{
+    "Äpple",
+    "Päron",
+    "Kiwi",
+    "Vattenmelon"
+};
+
+// Lägg till några frukter till listan med .Add()
+//fruits.Add("Äpple");
+//fruits.Add("Päron");
+//fruits.Add("Kiwi");
+//fruits.Add("Vattenmelon");
+
+// Loopa över listan och printa varje frukt
+foreach (string fruit in fruits)
+{
+    Console.WriteLine(fruit);
+}
+
+// Printa andra elementet specifikt!
+Console.WriteLine(fruits[1]);
+
+Console.WriteLine();
+
+// ARRAY
+
+Console.WriteLine("Array:");
+
+string[] animals = new string[5] { "Katt", "Hund", "Elefant", "Myra", "Myrslok" };
+
+//animals[0] = "Katt";
+//animals[1] = "Hund";
+//animals[2] = "Elefant";
+//animals[3] = "Myra";
+//animals[4] = "Myrslok";
+
+foreach (string animal in animals)
+{
+    Console.WriteLine(animal);
+}
