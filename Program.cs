@@ -88,7 +88,7 @@
 //    "Chewbacca"
 //};
 
-//starWars.Remove("Luke Skywalker");
+//starWars.Remove(starWars[0]);
 
 //foreach (string stars in starWars)
 //{
@@ -218,6 +218,7 @@
 
 //Console.WriteLine("Skriv tio heltal!");
 
+
 //for (int i = 0; i < myNum.Length; i++)
 //{
 //    Console.Write($"Nummer {i + 1}:");
@@ -231,21 +232,41 @@
 
 int[] myNum = new int[10];
 
-Console.WriteLine("Skriv tio heltal!");
+//Console.WriteLine("Skriv tio heltal!");
 
-for (int i = 0; i < myNum.Length; i++)
-{
-    Console.Write($"Nummer {i + 1}:");
+//for (int i = 0; i < myNum.Length; i++)
+//{
+//    Console.Write($"Nummer {i + 1}:");
 
-    myNum[i] = Convert.ToInt32(Console.ReadLine());
+//    myNum[i] = Convert.ToInt32(Console.ReadLine());
 
-    if (myNum[i] == 0)
-    {
-        i--;
-        Console.WriteLine("Du kan inte skriva in 0, försök igen!");
-    }
+//    if (myNum[i] == 0)
+//    {
+//        i--;
+//        Console.WriteLine("Du kan inte skriva in 0, försök igen!");
+//    }
 
-}
+//}
+
+//int i = 0;
+
+//while (i < myNum.Length)
+//{
+//    Console.Write($"Nummer {i + 1}:");
+
+//    myNum[i] = Convert.ToInt32(Console.ReadLine());
+
+//    if (myNum[i] == 0)
+//    {
+//        Console.WriteLine("Du kan inte skriva in 0, försök igen!");
+//    }
+//    else
+//    {
+//        i++;
+//    }
+
+
+//}
 
 
 
